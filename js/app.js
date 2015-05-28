@@ -1,3 +1,3 @@
-var app = angular.module('summitFootball', ['simple-slideshow']);
+var app = angular.module('summitFootball', []);
 
 
