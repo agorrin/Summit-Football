@@ -1,6 +1,10 @@
-var app = angular.module('summitFootball', ['ngRoute', $routeProvider]);
+var app = angular.module('summitFootball', ['ngRoute', 'firebase']);
 
-app.config(['$routeProvider', function($routeProvider) {
+.constant('fb'  {
+  url: 'https://sahs-roster.firebaseio.com/'
+});
+
+app.config(function($routeProvider) {
     $routeProvider.
       when('/', {
         templateUrl: '/pages/main/main.html',
@@ -14,11 +18,15 @@ app.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'pages/schedule/schedule.html',
         controller: 'scheduleCtrl'
       }).
-      when('/staff', {
+      when('/contact', {
         templateUrl: 'pages/contact/contact.html',
         controller: 'contactCtrl'
+      }).
+      when('/roster', {
+        templateUrl: 'pages/roster/roster.html',
+        controller: 'rosterCtrl'
       }).
       otherwise({
         redirectTo: '/'
 
-  }]);
+  });

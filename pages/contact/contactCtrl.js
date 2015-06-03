@@ -1,3 +1,3 @@
-app.controller('contactCtrl', function($scope) {
-	
+app.controller('contactCtrl', function($scope, $location) {
+
 });

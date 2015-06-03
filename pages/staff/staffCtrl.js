@@ -1,3 +1,3 @@
-app.controller('summitCtrl', function($scope) {
-	
+app.controller('staffCtrl', function($scope, $location) {
+
 });
