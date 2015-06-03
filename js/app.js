@@ -1,13 +1,13 @@
 var app = angular.module('summitFootball', ['ngRoute', 'firebase']);
 
-.constant('fb'  {
+app.constant('fb', {
   url: 'https://sahs-roster.firebaseio.com/'
 });
 
 app.config(function($routeProvider) {
     $routeProvider.
       when('/', {
-        templateUrl: '/pages/main/main.html',
+        templateUrl: 'pages/main/main.html',
         controller: 'mainCtrl'
       }).
       when('/staff', {
@@ -28,5 +28,6 @@ app.config(function($routeProvider) {
       }).
       otherwise({
         redirectTo: '/'
+      });
 
   });
