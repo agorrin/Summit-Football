@@ -1,7 +1,11 @@
 
 body {
-	background-color: white;
-
+  background: url(https://dl.dropboxusercontent.com/u/23299152/Wallpapers/wallpaper-22705.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 .mainDiv {
 	margin: 1%;
@@ -42,16 +46,30 @@ body {
 	text-shadow:0px 1px 0px black;
 	text-transform: uppercase;
 }
-.input{
+
+.bottom-text{
 	text-align: center;
-	padding-bottom: 4%;
+	color: yellow;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow:0px 1px 0px black;
+	text-transform: uppercase;
 }
+
 .text	{
 	text-align: center;
 	padding-bottom: 4%;
-	color: white;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	clear: right;
 	font-family: Arial;
-	text-transform: uppercase;
+	color: white;
+	text-shadow: 0px 1px 0px black;
 }
 .div2	{
 	margin-top: auto;
@@ -81,16 +99,4 @@ body {
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-.bottom-text{
-	text-align: center;
-	color: yellow;
-	padding-top: 5%;
-	padding-bottom: 2%;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: bold;
-	text-decoration: none;
-	text-shadow:0px 1px 0px black;
-	text-transform: uppercase;
 }

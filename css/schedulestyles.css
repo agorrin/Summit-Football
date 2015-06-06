@@ -1,7 +1,11 @@
 
 body {
-	background-color: white;
-
+  background: url(https://dl.dropboxusercontent.com/u/23299152/Wallpapers/wallpaper-22705.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 .mainDiv {
 	margin: 1%;
@@ -42,20 +46,27 @@ body {
 	text-shadow:0px 1px 0px black;
 	text-transform: uppercase;
 }
-
-.bottom-text{
-	text-align: center;
+.loginText{
+	cursor:pointer;
 	color: yellow;
-	padding-top: 15%;
-	padding-bottom: 2%;
-	font-family: Arial;
-	font-size: 18px;
+	font-family:Arial;
+	font-size:17px;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration:none;
 	text-shadow:0px 1px 0px black;
-	text-transform: uppercase;
 }
 
+.text	{
+	text-align: center;
+	padding-bottom: 4%;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	clear: right;
+	color: white;
+	font-family: Arial;
+	text-transform: uppercase;
+}
 .div2	{
 	margin-top: auto;
 	padding-bottom: 3%;
@@ -84,4 +95,16 @@ body {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+.bottom-text{
+	text-align: center;
+	color: yellow;
+	padding-top: 15%;
+	padding-bottom: 2%;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow:0px 1px 0px black;
+	text-transform: uppercase;
 }
