@@ -46,16 +46,30 @@ body {
 	text-shadow:0px 1px 0px black;
 	text-transform: uppercase;
 }
-.input{
+
+.bottom-text{
 	text-align: center;
-	padding-bottom: 4%;
-}
-#text	{
-	text-align: center;
-	padding-bottom: 4%;
-	color: white;
+	color: yellow;
+	padding-top: 5%;
+	padding-bottom: 2%;
 	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow:0px 1px 0px black;
 	text-transform: uppercase;
+}
+
+.text	{
+	text-align: center;
+	padding-bottom: 4%;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	clear: right;
+	font-family: Arial;
+	color: white;
+	text-shadow: 0px 1px 0px black;
 }
 .div2	{
 	margin-top: auto;
@@ -85,16 +99,4 @@ body {
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-.bottom-text{
-	text-align: center;
-	color: yellow;
-	padding-top: 5%;
-	padding-bottom: 2%;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: bold;
-	text-decoration: none;
-	text-shadow:0px 1px 0px black;
-	text-transform: uppercase;
 }

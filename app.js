@@ -19,17 +19,12 @@ var app = angular.module('summitFootball', ['ngRoute', 'firebase', 'routeStyles'
       when('/contact', {
         templateUrl: './pages/contact/contact.html',
         controller: 'contactCtrl',
-        css: '../css/contactstyles.css'
+        // css: '../css/contactstyles.css'
       }).
       when('/roster', {
         templateUrl: './pages/roster/roster.html',
         controller: 'rosterCtrl',
         css: '../css/rosterstyles.css'
-      }).
-      when('/login', {
-        templateUrl: './pages/login/login.html',
-        controller: 'loginCtrl',
-        css: '../css/loginstyles.css'
       }).
       otherwise({
         redirectTo: '/'

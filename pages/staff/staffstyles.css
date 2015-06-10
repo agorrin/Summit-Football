@@ -46,15 +46,11 @@ body {
 	text-shadow:0px 1px 0px black;
 	text-transform: uppercase;
 }
-.input{
+.text	{
 	text-align: center;
 	padding-bottom: 4%;
-}
-#text	{
-	text-align: center;
-	padding-bottom: 4%;
-	color: white;
 	font-family: Arial;
+	color: white;
 	text-transform: uppercase;
 }
 .div2	{
