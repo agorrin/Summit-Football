@@ -19,7 +19,7 @@ var app = angular.module('summitFootball', ['ngRoute', 'firebase', 'routeStyles'
       when('/contact', {
         templateUrl: './pages/contact/contact.html',
         controller: 'contactCtrl',
-        // css: '../css/contactstyles.css'
+        css: '../css/contactstyles.css'
       }).
       when('/roster', {
         templateUrl: './pages/roster/roster.html',
